@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TaClDetailCollectionViewCell" id="gTV-IL-0wX" customClass="TaClDetailCollectionViewCell" customModule="The_Ant" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="120" height="107"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="120" height="107"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cxI-Pd-9Pa">
+                        <rect key="frame" x="0.0" y="0.0" width="120" height="107"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Photo" translatesAutoresizingMaskIntoConstraints="NO" id="Gea-5O-WF2">
+                                <rect key="frame" x="5" y="5" width="110" height="97"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Gea-5O-WF2" firstAttribute="centerY" secondItem="cxI-Pd-9Pa" secondAttribute="centerY" id="32P-h7-l6Z"/>
+                            <constraint firstAttribute="trailing" secondItem="Gea-5O-WF2" secondAttribute="trailing" constant="5" id="8nW-35-r0w"/>
+                            <constraint firstItem="Gea-5O-WF2" firstAttribute="top" secondItem="cxI-Pd-9Pa" secondAttribute="top" constant="5" id="BPg-bk-3bv"/>
+                            <constraint firstItem="Gea-5O-WF2" firstAttribute="leading" secondItem="cxI-Pd-9Pa" secondAttribute="leading" constant="5" id="C3P-Vk-Sgj"/>
+                            <constraint firstAttribute="bottom" secondItem="Gea-5O-WF2" secondAttribute="bottom" constant="5" id="apq-TJ-AhP"/>
+                            <constraint firstItem="Gea-5O-WF2" firstAttribute="centerX" secondItem="cxI-Pd-9Pa" secondAttribute="centerX" id="hqK-Gl-ag1"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="cxI-Pd-9Pa" secondAttribute="bottom" id="CfD-qc-z80"/>
+                <constraint firstItem="cxI-Pd-9Pa" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="S7k-72-yKr"/>
+                <constraint firstItem="cxI-Pd-9Pa" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="SCC-Hb-s1q"/>
+                <constraint firstAttribute="trailing" secondItem="cxI-Pd-9Pa" secondAttribute="trailing" id="qKb-4h-T2A"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="120" height="107"/>
+            <connections>
+                <outlet property="imaDetail" destination="Gea-5O-WF2" id="5EP-ia-olw"/>
+            </connections>
+            <point key="canvasLocation" x="62.318840579710148" y="53.90625"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Photo" width="107" height="107"/>
+    </resources>
+</document>

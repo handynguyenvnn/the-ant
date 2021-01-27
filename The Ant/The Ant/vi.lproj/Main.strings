@@ -1,0 +1,129 @@
+
+/* Class = "UILabel"; text = "Mô tả năng lực"; ObjectID = "0KE-EV-vU3"; */
+"0KE-EV-vU3.text" = "Mô tả năng lực";
+
+/* Class = "UIButton"; normalTitle = "Huỷ"; ObjectID = "2k1-8l-9v9"; */
+"2k1-8l-9v9.normalTitle" = "Huỷ";
+
+/* Class = "UITabBarItem"; title = "Tin tức"; ObjectID = "3s1-jN-0EP"; */
+"3s1-jN-0EP.title" = "Tin tức";
+
+/* Class = "UILabel"; text = "Thống kê"; ObjectID = "4F7-az-QcG"; */
+"4F7-az-QcG.text" = "Thống kê";
+
+/* Class = "UILabel"; text = "Tài khoản"; ObjectID = "4JH-Xu-pQw"; */
+"4JH-Xu-pQw.text" = "Tài khoản";
+
+/* Class = "UILabel"; text = "Số điểm tuyển dụng"; ObjectID = "77b-4M-PmT"; */
+"77b-4M-PmT.text" = "Số điểm tuyển dụng";
+
+/* Class = "UILabel"; text = "Lĩnh vực"; ObjectID = "Aa9-C9-NNu"; */
+"Aa9-C9-NNu.text" = "Lĩnh vực";
+
+/* Class = "UILabel"; text = "Lịch sử"; ObjectID = "Ct1-Pw-pJu"; */
+"Ct1-Pw-pJu.text" = "Lịch sử";
+
+/* Class = "UILabel"; text = "Hoặc "; ObjectID = "DZ4-98-mbT"; */
+"DZ4-98-mbT.text" = "Hoặc ";
+
+/* Class = "UIButton"; normalTitle = "Tháng 4"; ObjectID = "Did-9O-pQr"; */
+"Did-9O-pQr.normalTitle" = "Tháng 4";
+
+/* Class = "UILabel"; text = "Mật khẩu"; ObjectID = "Dqx-em-rav"; */
+"Dqx-em-rav.text" = "Mật khẩu";
+
+/* Class = "UIButton"; normalTitle = "Quên mật khẩu?"; ObjectID = "FEQ-Vo-uad"; */
+"FEQ-Vo-uad.normalTitle" = "Quên mật khẩu?";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "HLw-Pp-ayS"; */
+"HLw-Pp-ayS.text" = "Email";
+
+/* Class = "UILabel"; text = "Giấy tờ tùy thân"; ObjectID = "ImL-2b-1sI"; */
+"ImL-2b-1sI.text" = "Giấy tờ tùy thân";
+
+/* Class = "UILabel"; text = "Thống kê"; ObjectID = "IpO-MY-pZ2"; */
+//"IpO-MY-pZ2.text" = "Thống kê";
+
+/* Class = "UILabel"; text = "Số tiền đã chi"; ObjectID = "KPZ-rw-BaX"; */
+"KPZ-rw-BaX.text" = "Số tiền đã chi";
+
+/* Class = "UILabel"; text = "Đăng xuất"; ObjectID = "L5m-pW-RCq"; */
+"L5m-pW-RCq.text" = "Đăng xuất";
+
+/* Class = "UILabel"; text = "Đổi mật khẩu"; ObjectID = "NZ4-le-RTn"; */
+"NZ4-le-RTn.text" = "Đổi mật khẩu";
+
+/* Class = "UILabel"; text = "2.000.0000000 VNĐ"; ObjectID = "PXT-oL-YQg"; */
+"PXT-oL-YQg.text" = "2.000.0000000 VNĐ";
+
+/* Class = "UILabel"; text = "Hoạt động"; ObjectID = "Qhh-FX-MFP"; */
+"Qhh-FX-MFP.text" = "Hoạt động";
+
+/* Class = "UILabel"; text = "Số điện thoại"; ObjectID = "R6j-27-IOf"; */
+"R6j-27-IOf.text" = "Số điện thoại";
+
+/* Class = "UITabBarItem"; title = "Tài khoản"; ObjectID = "RB3-RI-qpn"; */
+"RB3-RI-qpn.title" = "Tài khoản";
+
+/* Class = "UILabel"; text = "ádnfasjdfasjkdaskjdaskdjfasnkdjfasdjfkajsdfnaksdfna"; ObjectID = "TXo-dQ-mbD"; */
+"TXo-dQ-mbD.text" = "ádnfasjdfasjkdaskjdaskdjfasnkdjfasdjfkajsdfnaksdfna";
+
+/* Class = "UILabel"; text = "Đang tuyển"; ObjectID = "TbJ-YM-6VV"; */
+"TbJ-YM-6VV.text" = "Đang tuyển";
+
+/* Class = "UIButton"; normalTitle = "Đăng nhập"; ObjectID = "W65-7e-gHB"; */
+"W65-7e-gHB.normalTitle" = "Đăng nhập";
+
+/* Class = "UILabel"; text = "Chưa có tài khoản?"; ObjectID = "Y6f-02-Dbp"; */
+"Y6f-02-Dbp.text" = "Chưa có tài khoản?";
+
+/* Class = "UILabel"; text = "Công nghệ thông tin"; ObjectID = "YkP-ZS-NZq"; */
+"YkP-ZS-NZq.text" = "Công nghệ thông tin";
+
+/* Class = "UILabel"; text = "Sinh nhật"; ObjectID = "avb-Kt-isX"; */
+"avb-Kt-isX.text" = "Sinh nhật";
+
+/* Class = "UITabBarItem"; title = "Công việc"; ObjectID = "d97-IX-fCN"; */
+"d97-IX-fCN.title" = "Công việc";
+
+/* Class = "UILabel"; text = "Chọn lĩnh vực"; ObjectID = "dZb-bP-oOk"; */
+"dZb-bP-oOk.text" = "Chọn lĩnh vực";
+
+/* Class = "UILabel"; text = "Số điện thoại"; ObjectID = "eOn-al-ukY"; */
+"eOn-al-ukY.text" = "Số điện thoại";
+
+/* Class = "UILabel"; text = "Lĩnh vực"; ObjectID = "gWX-uS-Ugh"; */
+"gWX-uS-Ugh.text" = "Lĩnh vực";
+
+/* Class = "UILabel"; text = "Nguyễn Thế Tùng"; ObjectID = "jE8-U9-iJm"; */
+"jE8-U9-iJm.text" = "Nguyễn Thế Tùng";
+
+/* Class = "UILabel"; text = "Địa chỉ"; ObjectID = "kME-23-LVe"; */
+"kME-23-LVe.text" = "Địa chỉ";
+
+/* Class = "UILabel"; text = "Về chúng tôi"; ObjectID = "lRK-pS-zf4"; */
+//"lRK-pS-zf4.text" = "Về chúng tôi";
+
+/* Class = "UILabel"; text = "Tỉ lệ thành công"; ObjectID = "lZ5-jc-2iI"; */
+"lZ5-jc-2iI.text" = "Tỉ lệ thành công";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "n9W-xY-Ym8"; */
+"n9W-xY-Ym8.text" = "2";
+
+/* Class = "UITabBarItem"; title = "Trang chủ"; ObjectID = "nOk-rx-UNc"; */
+"nOk-rx-UNc.title" = "Trang chủ";
+
+/* Class = "UILabel"; text = "Nhân sự đã thuê"; ObjectID = "oO0-P4-L5A"; */
+"oO0-P4-L5A.text" = "Nhân sự đã thuê";
+
+/* Class = "UILabel"; text = "Nhớ tài khoản"; ObjectID = "q7z-cp-Xww"; */
+"q7z-cp-Xww.text" = "Nhớ tài khoản";
+
+/* Class = "UILabel"; text = "Chưa xác nhận"; ObjectID = "w1y-F7-4U5"; */
+"w1y-F7-4U5.text" = "Chưa xác nhận";
+
+/* Class = "UIButton"; normalTitle = "Chỉnh sửa"; ObjectID = "zHd-LW-gUa"; */
+"zHd-LW-gUa.normalTitle" = "Chỉnh sửa";
+
+/* Class = "UIButton"; selectedTitle = "Cập nhật"; ObjectID = "zHd-LW-gUa"; */
+"zHd-LW-gUa.selectedTitle" = "Cập nhật";

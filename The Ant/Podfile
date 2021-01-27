@@ -1,0 +1,44 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'The Ant' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for The Ant
+
+  pod 'SDWebImage'
+	pod 'MBProgressHUD'
+  pod 'SwiftyJSON'
+  pod 'Alamofire'
+  pod 'Fabric'
+  pod 'Crashlytics'
+  pod 'UIScrollView-InfiniteScroll'
+  pod 'RNCryptor'
+  #pod 'BadgeControl'
+  pod 'Toast-Swift'
+  pod 'Toaster'
+  pod 'IQKeyboardManager'
+#  pod 'PopupDialog'
+  pod 'Presentr'
+  pod 'KeychainSwift', '~> 13.0'
+  pod 'DatePickerDialog', :git => 'https://github.com/papipons/DatePickerDialog-iOS-Swift.git', :branch => 'swift4.2-migration'
+  #pod 'BarcodeScanner'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Messaging'
+  pod 'FacebookSDK'
+  pod 'FacebookCore'
+  pod 'FacebookLogin'
+  pod 'FacebookShare'
+  pod 'DropDown'
+  pod 'HCSStarRatingView'
+  pod 'Localize-Swift', '~> 2.0'
+  pod 'IDMPhotoBrowser'
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+   pod 'SkyFloatingLabelTextField', '~> 3.0'
+   pod 'YPImagePicker'
+#  pod "ExpandingMenu"
+
+end

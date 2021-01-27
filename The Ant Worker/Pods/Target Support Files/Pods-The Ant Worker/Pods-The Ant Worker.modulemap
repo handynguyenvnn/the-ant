@@ -1,0 +1,6 @@
+framework module Pods_The_Ant_Worker {
+  umbrella header "Pods-The Ant Worker-umbrella.h"
+
+  export *
+  module * { export * }
+}

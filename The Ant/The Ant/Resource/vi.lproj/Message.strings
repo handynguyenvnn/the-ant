@@ -1,0 +1,30 @@
+/* 
+  Message.strings
+  The Ant
+
+  Created by Quyet on 7/24/19.
+  Copyright © 2019 Tung Nguyen. All rights reserved.
+*/
+//REGISTER
+"MESSAGE_MISSING_NAME" = "Chưa nhập tên đăng nhập";
+"MESSAGE_MISSING_PASSWORD" = "Chưa nhập mật khẩu";
+"MESSAGE_MISSING_REPASSWORD" = "Nhập lại mật khẩu không khớp";
+"MESSAGE_MISSING_EMAIL" = "Chưa nhập email";
+"MESSAGE_MISSING_ADDRESS" = "Chưa nhập địa chỉ";
+"MESSAGE_MISSING_PHONE" = "Chưa nhập số điện thoại";
+"MESSAGE_MISSING_FULL_NAME" = "Chưa nhập họ và tên";
+//LOGIN
+"MESSAGE_MISSING_ACCOUNT" = "Chưa nhập tài khoản đăng nhập";
+"MESSAGE_MISSING_PASSWORD" = "Chưa nhập mật khẩu";
+//CHANGEPASSWORD
+"MESSAGE_MISSING_OLD_PASSWORD" = "Chưa nhập mật khẩu cũ";
+"MESSAGE_MISSING_NEW_PASSWORD" = "Chưa nhập mật khẩu mới";
+"MESSAGE_MISSING_REPASSWORD" = "Nhập lại mật khẩu không khớp";
+//FORGOT
+"MESSAGE_MISSING_PHONE" = "Chưa nhập số điện thoại";
+"MESSAGE_MISSING_OTP" = "Chưa nhập mã otp";
+"MESSAGE_MISSING_NEW_PASSWORD" = "Chưa nhập mật khẩu mới";
+"MESSAGE_MISSING_REPASSWORD" = "Nhập lại mật khẩu không khớp";
+
+
+

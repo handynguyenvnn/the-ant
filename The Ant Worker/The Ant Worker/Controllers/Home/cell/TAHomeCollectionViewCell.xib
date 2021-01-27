@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Muli-SemiBold.ttf">
+            <string>Muli-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TAHomeCollectionViewCell" id="gTV-IL-0wX" customClass="TAHomeCollectionViewCell" customModule="The_Ant_Worker" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="164" height="95"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="164" height="95"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sgj-Lg-0Nt">
+                        <rect key="frame" x="7" y="7" width="150" height="81"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_service" translatesAutoresizingMaskIntoConstraints="NO" id="FC7-Dj-9NS">
+                                <rect key="frame" x="55" y="4" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="28Z-yc-wsc"/>
+                                    <constraint firstAttribute="height" constant="40" id="tGA-TC-Cwk"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IwH-pb-atW">
+                                <rect key="frame" x="128" y="8" width="17" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="17" id="g6y-7B-fVR"/>
+                                    <constraint firstAttribute="height" constant="18" id="uLn-gN-Nyc"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="selected" title="ic_selected"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vệ sinh văn phòng công ty" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gDp-gS-PB4">
+                                <rect key="frame" x="4.5" y="45" width="142.5" height="33.5"/>
+                                <fontDescription key="fontDescription" name="Muli-SemiBold" family="Muli" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="gDp-gS-PB4" secondAttribute="trailing" constant="3" id="0XY-WY-sbW"/>
+                            <constraint firstItem="FC7-Dj-9NS" firstAttribute="centerX" secondItem="Sgj-Lg-0Nt" secondAttribute="centerX" id="4u4-7n-kT1"/>
+                            <constraint firstItem="gDp-gS-PB4" firstAttribute="top" secondItem="FC7-Dj-9NS" secondAttribute="bottom" constant="1" id="5s5-tZ-KoV"/>
+                            <constraint firstItem="FC7-Dj-9NS" firstAttribute="top" secondItem="Sgj-Lg-0Nt" secondAttribute="top" constant="4" id="S7R-i9-C9W"/>
+                            <constraint firstItem="gDp-gS-PB4" firstAttribute="leading" secondItem="Sgj-Lg-0Nt" secondAttribute="leading" constant="4.5" id="VDU-ns-xda"/>
+                            <constraint firstAttribute="trailing" secondItem="IwH-pb-atW" secondAttribute="trailing" constant="5" id="iAs-Dv-AZv"/>
+                            <constraint firstAttribute="bottom" secondItem="gDp-gS-PB4" secondAttribute="bottom" constant="2.5" id="krB-SO-hBV"/>
+                            <constraint firstItem="IwH-pb-atW" firstAttribute="top" secondItem="Sgj-Lg-0Nt" secondAttribute="top" constant="8" id="nnd-0V-cHz"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Sgj-Lg-0Nt" secondAttribute="bottom" constant="7" id="bkc-bg-BAh"/>
+                <constraint firstItem="Sgj-Lg-0Nt" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="7" id="ka5-RS-bcN"/>
+                <constraint firstItem="Sgj-Lg-0Nt" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="7" id="sbC-Qw-VQi"/>
+                <constraint firstAttribute="trailing" secondItem="Sgj-Lg-0Nt" secondAttribute="trailing" constant="7" id="vqV-za-ofc"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="164" height="132"/>
+            <connections>
+                <outlet property="btnStatus" destination="IwH-pb-atW" id="aEW-QF-2pI"/>
+                <outlet property="imgCate" destination="FC7-Dj-9NS" id="dQM-pb-9XK"/>
+                <outlet property="lbTitle" destination="gDp-gS-PB4" id="ra3-6G-EeN"/>
+                <outlet property="viewAll" destination="Sgj-Lg-0Nt" id="8pn-Ml-3O2"/>
+            </connections>
+            <point key="canvasLocation" x="82.608695652173921" y="186.49553571428569"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_service" width="60" height="60"/>
+    </resources>
+</document>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Muli-Regular.ttf">
+            <string>Muli-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="TAWorkerCollectionViewCell" id="gTV-IL-0wX" customClass="TAWorkerCollectionViewCell" customModule="The_Ant" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="120" height="170"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="120" height="170"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J6v-qV-CdF">
+                        <rect key="frame" x="10" y="10" width="100" height="150"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kdc-lo-mBf">
+                                <rect key="frame" x="0.0" y="106" width="100" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Ufi-lK-B95"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Muli-Regular" family="Muli" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Photo" translatesAutoresizingMaskIntoConstraints="NO" id="dap-E5-XNR">
+                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="LRg-Nc-mxB"/>
+                                    <constraint firstAttribute="width" constant="100" id="br8-R5-qe3"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dap-E5-XNR" firstAttribute="centerX" secondItem="J6v-qV-CdF" secondAttribute="centerX" id="3YH-kU-sfQ"/>
+                            <constraint firstAttribute="bottom" secondItem="kdc-lo-mBf" secondAttribute="bottom" id="H1m-UW-JPC"/>
+                            <constraint firstItem="kdc-lo-mBf" firstAttribute="leading" secondItem="J6v-qV-CdF" secondAttribute="leading" id="HT2-pd-nb3"/>
+                            <constraint firstItem="dap-E5-XNR" firstAttribute="top" secondItem="J6v-qV-CdF" secondAttribute="top" id="KfL-iG-NGS"/>
+                            <constraint firstItem="kdc-lo-mBf" firstAttribute="top" secondItem="dap-E5-XNR" secondAttribute="bottom" constant="6" id="cKI-wQ-sze"/>
+                            <constraint firstAttribute="trailing" secondItem="kdc-lo-mBf" secondAttribute="trailing" id="m2w-0f-qcu"/>
+                        </constraints>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_checked" translatesAutoresizingMaskIntoConstraints="NO" id="N4e-mi-WRB">
+                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="P34-hF-hme"/>
+                            <constraint firstAttribute="height" constant="30" id="rwJ-i9-Bck"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="N4e-mi-WRB" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="19t-lY-PjG"/>
+                <constraint firstItem="N4e-mi-WRB" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="4ir-Y7-lGW"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="J6v-qV-CdF" secondAttribute="trailing" constant="10" id="BxG-ed-dmj"/>
+                <constraint firstItem="J6v-qV-CdF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="Cui-cR-tmh"/>
+                <constraint firstAttribute="bottom" secondItem="J6v-qV-CdF" secondAttribute="bottom" constant="10" id="Hmw-xN-Gyr"/>
+                <constraint firstItem="J6v-qV-CdF" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" constant="10" id="Mtn-aD-06T"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="173" height="149"/>
+            <connections>
+                <outlet property="imgAvatar" destination="dap-E5-XNR" id="1tL-43-rEh"/>
+                <outlet property="imgCheck" destination="N4e-mi-WRB" id="d9B-uN-nzh"/>
+                <outlet property="lbName" destination="kdc-lo-mBf" id="Bx5-QI-Xi1"/>
+            </connections>
+            <point key="canvasLocation" x="210.1449275362319" y="121.20535714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Photo" width="107" height="107"/>
+        <image name="ic_checked" width="14" height="14"/>
+    </resources>
+</document>

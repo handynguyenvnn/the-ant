@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Muli-Regular.ttf">
+            <string>Muli-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TaTbSpecialConditionPostJobTableViewCell" rowHeight="33" id="KGk-i7-Jjw" customClass="TaTbSpecialConditionPostJobTableViewCell" customModule="The_Ant_Worker" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="33"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="32.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EL4-V9-uyT">
+                        <rect key="frame" x="6" y="6" width="314" height="16"/>
+                        <subviews>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gv2-GI-Lwy">
+                                <rect key="frame" x="0.0" y="0.0" width="16" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="16" id="ucb-X6-ECN"/>
+                                    <constraint firstAttribute="height" constant="16" id="uel-FS-qRE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Muli-Regular" family="Muli" pointSize="17"/>
+                                <state key="normal" image="ic_unchecked_large">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <state key="selected" image="ic_checked_large"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l29-gE-bUS">
+                                <rect key="frame" x="16" y="0.0" width="298" height="16"/>
+                                <fontDescription key="fontDescription" name="Muli-Regular" family="Muli" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="l29-gE-bUS" secondAttribute="trailing" id="8jK-DG-8sn"/>
+                            <constraint firstItem="l29-gE-bUS" firstAttribute="leading" secondItem="gv2-GI-Lwy" secondAttribute="trailing" id="A5q-fT-0ph"/>
+                            <constraint firstAttribute="bottom" secondItem="l29-gE-bUS" secondAttribute="bottom" id="Egi-tK-zNJ"/>
+                            <constraint firstAttribute="bottom" secondItem="gv2-GI-Lwy" secondAttribute="bottom" id="Rcu-iH-THh"/>
+                            <constraint firstItem="gv2-GI-Lwy" firstAttribute="leading" secondItem="EL4-V9-uyT" secondAttribute="leading" id="b84-ic-Zgx"/>
+                            <constraint firstItem="gv2-GI-Lwy" firstAttribute="top" secondItem="EL4-V9-uyT" secondAttribute="top" id="exX-Tc-zDx"/>
+                            <constraint firstItem="l29-gE-bUS" firstAttribute="top" secondItem="EL4-V9-uyT" secondAttribute="top" id="fDA-cG-YgX"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="EL4-V9-uyT" secondAttribute="bottom" constant="6" id="3ag-co-Vt3"/>
+                    <constraint firstAttribute="trailing" secondItem="EL4-V9-uyT" secondAttribute="trailing" id="JDm-Ve-L8J"/>
+                    <constraint firstItem="EL4-V9-uyT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="6" id="e9K-1a-Dhn"/>
+                    <constraint firstItem="EL4-V9-uyT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="i7n-Eg-PlU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnImage" destination="gv2-GI-Lwy" id="if7-XW-bOs"/>
+                <outlet property="lbContent" destination="l29-gE-bUS" id="Wwg-oR-MNZ"/>
+            </connections>
+            <point key="canvasLocation" x="-497" y="56"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_checked_large" width="72" height="72"/>
+        <image name="ic_unchecked_large" width="72" height="72"/>
+    </resources>
+</document>

@@ -1,0 +1,299 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - Crashlytics (3.13.4):
+    - Fabric (~> 1.10.2)
+  - DACircularProgress (2.3.1)
+  - DatePickerDialog (2.0)
+  - DropDown (2.3.13)
+  - Fabric (1.10.2)
+  - FacebookCore (0.7.0):
+    - FBSDKCoreKit (~> 5.0)
+  - FacebookLogin (0.7.0):
+    - FacebookCore (~> 0.7)
+    - FBSDKCoreKit (~> 5.0)
+    - FBSDKLoginKit (~> 5.0)
+  - FacebookSDK (4.44.1):
+    - Bolts (~> 1.9)
+    - FacebookSDK/CoreKit (= 4.44.1)
+    - FacebookSDK/MarketingKit (= 4.44.1)
+  - FacebookSDK/CoreKit (4.44.1):
+    - Bolts (~> 1.9)
+    - FBSDKCoreKit
+  - FacebookSDK/MarketingKit (4.44.1):
+    - Bolts (~> 1.9)
+    - FacebookSDK/CoreKit
+    - FBSDKMarketingKit
+  - FacebookShare (0.7.0):
+    - FacebookCore (~> 0.7)
+    - FBSDKCoreKit (~> 5.0)
+    - FBSDKShareKit (~> 5.0)
+  - FBSDKCoreKit (5.2.1):
+    - FBSDKCoreKit/Basics (= 5.2.1)
+    - FBSDKCoreKit/Core (= 5.2.1)
+  - FBSDKCoreKit/Basics (5.2.1)
+  - FBSDKCoreKit/Core (5.2.1):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.2.1):
+    - FBSDKCoreKit (~> 5.0)
+  - FBSDKMarketingKit (4.38.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (5.2.1):
+    - FBSDKCoreKit (~> 5.0)
+  - Firebase/Auth (6.4.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 6.2.0)
+  - Firebase/Core (6.4.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.0.3)
+  - Firebase/CoreOnly (6.4.0):
+    - FirebaseCore (= 6.0.4)
+  - Firebase/Messaging (6.4.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 4.1.1)
+  - FirebaseAnalytics (6.0.3):
+    - FirebaseCore (~> 6.0)
+    - FirebaseInstanceID (~> 4.2)
+    - GoogleAppMeasurement (= 6.0.3)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3)
+  - FirebaseAnalyticsInterop (1.2.0)
+  - FirebaseAuth (6.2.0):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.2)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseAuthInterop (1.0.0)
+  - FirebaseCore (6.0.4):
+    - GoogleUtilities/Environment (~> 6.0)
+    - GoogleUtilities/Logger (~> 6.0)
+  - FirebaseInstanceID (4.2.1):
+    - FirebaseCore (~> 6.0)
+    - GoogleUtilities/Environment (~> 6.0)
+    - GoogleUtilities/UserDefaults (~> 6.0)
+  - FirebaseMessaging (4.1.1):
+    - FirebaseAnalyticsInterop (~> 1.1)
+    - FirebaseCore (~> 6.0)
+    - FirebaseInstanceID (~> 4.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.2)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Reachability (~> 6.2)
+    - GoogleUtilities/UserDefaults (~> 6.2)
+    - Protobuf (~> 3.1)
+  - GoogleAppMeasurement (6.0.3):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3)
+  - GoogleMaps (3.2.0):
+    - GoogleMaps/Maps (= 3.2.0)
+  - GoogleMaps/Base (3.2.0)
+  - GoogleMaps/Maps (3.2.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.2.0):
+    - GoogleMaps/Base (= 3.2.0)
+  - GoogleUtilities/AppDelegateSwizzler (6.2.3):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.2.3)
+  - GoogleUtilities/Logger (6.2.3):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.2.3):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.2.3):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.2.3)"
+  - GoogleUtilities/Reachability (6.2.3):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.2.3):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.2.2)
+  - HCSStarRatingView (1.5)
+  - IDMPhotoBrowser (1.10.2):
+    - DACircularProgress
+    - pop
+    - SDWebImage
+  - IQKeyboardManager (6.4.0)
+  - KeychainSwift (13.0.0)
+  - Localize-Swift (2.0.0)
+  - MBProgressHUD (1.1.0)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - pop (1.0.12)
+  - Presentr (1.9)
+  - Protobuf (3.9.0)
+  - PryntTrimmerView (3.0.0)
+  - RNCryptor (5.1.0)
+  - SDWebImage (5.0.6):
+    - SDWebImage/Core (= 5.0.6)
+  - SDWebImage/Core (5.0.6)
+  - SkyFloatingLabelTextField (3.7.0)
+  - SteviaLayout (4.4.4)
+  - SwiftyJSON (5.0.0)
+  - Toast-Swift (5.0.0)
+  - Toaster (2.2.0)
+  - UIScrollView-InfiniteScroll (1.1.0)
+  - YPImagePicker (4.0.0):
+    - PryntTrimmerView (~> 3.0.0)
+    - SteviaLayout (~> 4.4.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Crashlytics
+  - DatePickerDialog (from `https://github.com/papipons/DatePickerDialog-iOS-Swift.git`, branch `swift4.2-migration`)
+  - DropDown
+  - Fabric
+  - FacebookCore
+  - FacebookLogin
+  - FacebookSDK
+  - FacebookShare
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Messaging
+  - GoogleMaps
+  - GooglePlaces
+  - HCSStarRatingView
+  - IDMPhotoBrowser
+  - IQKeyboardManager
+  - KeychainSwift (~> 13.0)
+  - Localize-Swift (~> 2.0)
+  - MBProgressHUD
+  - Presentr
+  - RNCryptor
+  - SDWebImage
+  - SkyFloatingLabelTextField (~> 3.0)
+  - SwiftyJSON
+  - Toast-Swift
+  - Toaster
+  - UIScrollView-InfiniteScroll
+  - YPImagePicker
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Bolts
+    - Crashlytics
+    - DACircularProgress
+    - DropDown
+    - Fabric
+    - FacebookCore
+    - FacebookLogin
+    - FacebookSDK
+    - FacebookShare
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKMarketingKit
+    - FBSDKShareKit
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAnalyticsInterop
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - GoogleAppMeasurement
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - HCSStarRatingView
+    - IDMPhotoBrowser
+    - IQKeyboardManager
+    - KeychainSwift
+    - Localize-Swift
+    - MBProgressHUD
+    - nanopb
+    - pop
+    - Presentr
+    - Protobuf
+    - PryntTrimmerView
+    - RNCryptor
+    - SDWebImage
+    - SkyFloatingLabelTextField
+    - SteviaLayout
+    - SwiftyJSON
+    - Toast-Swift
+    - Toaster
+    - UIScrollView-InfiniteScroll
+    - YPImagePicker
+
+EXTERNAL SOURCES:
+  DatePickerDialog:
+    :branch: swift4.2-migration
+    :git: https://github.com/papipons/DatePickerDialog-iOS-Swift.git
+
+CHECKOUT OPTIONS:
+  DatePickerDialog:
+    :commit: f7b0e569f5f29d82837905dfb174b0e04c7b681d
+    :git: https://github.com/papipons/DatePickerDialog-iOS-Swift.git
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Crashlytics: 2dfd686bcb918dc10ee0e76f7f853fe42c7bd552
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  DatePickerDialog: 18b12e3aba09b28dc6146bdf8573a9834d8ea2ab
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
+  FacebookCore: 4eee98476cb37a485af5d337eb21f8cd5b3c7e6c
+  FacebookLogin: 94cdad6850e86a2b04704dedfe7674a7af8148eb
+  FacebookSDK: 98dd798abb2fe8148d010d30f5d9b4b47bc30922
+  FacebookShare: dd4954712db61e078aea483bdf89e1b2ae3574b5
+  FBSDKCoreKit: e1ab8d86f5eea2d7aa6ab12acca3e1d2dcb11983
+  FBSDKLoginKit: 6e20e44775ddf4b159a8ca676834325e13d12221
+  FBSDKMarketingKit: e609f39d74ab273cf52e2f8b7e8829ed412b2827
+  FBSDKShareKit: 75a25e88b15b66e67ed03826080eff825afff520
+  Firebase: 9445469655a98e9010737f4bc4720e5bda465873
+  FirebaseAnalytics: 69fe25866d2ec87c6f02d72c3c9a82bce9c065a0
+  FirebaseAnalyticsInterop: efbe45c8385ec626e29f9525e5ebd38520dfb6c1
+  FirebaseAuth: 68cfa47997f53d29ce978e7a615fb78d7925fcbe
+  FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
+  FirebaseCore: 7ea99e200f0024262650be56623fbe6a7bef1707
+  FirebaseInstanceID: 9782fcfb89e4d7da76cc28eac4b8543dc7be4a4b
+  FirebaseMessaging: 6bb0bdaf64c55fef7a219b7bb1e94e94a0855ced
+  GoogleAppMeasurement: 1e45fa601e6280c180880d57010390f6679cd971
+  GoogleMaps: 5046d7edfe381c1a0b20fdaf293915a375c3122b
+  GooglePlaces: 41bc2e480816b1234a48f4bec92e1c886f37cfe1
+  GoogleUtilities: d2b0e277a95962e09bb27f5cd42f5f0b6a506c7d
+  GTMSessionFetcher: 61bb0f61a4cb560030f1222021178008a5727a23
+  HCSStarRatingView: 1d18f79654735514cd6f00e6d90e38cb6320dc31
+  IDMPhotoBrowser: 4bb459b1faffc228e92bccdf7c54ad6d6b7e8c37
+  IQKeyboardManager: fcef267266379c003181fc3592f6bdb8bf4db839
+  KeychainSwift: 23d6c16cbc33f20fafa30c3d783241b4b87d998c
+  Localize-Swift: c798ec9286494866f7068f85f7c71283ac5bdab4
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  Presentr: 7078d7eb5d1661ebeaae60c9e42a1e534de1b993
+  Protobuf: 1097ca58584c8d9be81bfbf2c5ff5975648dd87a
+  PryntTrimmerView: 53ac64053c7ce63cb3e27f54090f52da0734891d
+  RNCryptor: a369134686cd2ad391323cc856b62e591193ba79
+  SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
+  SkyFloatingLabelTextField: 4b46db0ab1ccde0919cded29c656e6b4805eda04
+  SteviaLayout: 523469269059f2c6da02820bb2ff28a5fe0780aa
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Toast-Swift: 36f4720243c8582c2be243a60a51e193c761f541
+  Toaster: c1a81b376edcc2470157b4d1ee1e9341d3b96455
+  UIScrollView-InfiniteScroll: 3ef456bcbe759c19f510a383cff96e6647c98c98
+  YPImagePicker: 8039f89ad79281545fa868486f32d9bf5d65ede1
+
+PODFILE CHECKSUM: 78acfc08ce0ffaf284abd85c970102bd05c70c3c
+
+COCOAPODS: 1.7.3

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Muli-Bold.ttf">
+            <string>Muli-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TaTbSpecialConditionPostJobTableViewCell" rowHeight="33" id="KGk-i7-Jjw" customClass="TaTbSpecialConditionPostJobTableViewCell" customModule="The_Ant" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="33"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="32.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="cUd-q3-k2k">
+                        <rect key="frame" x="0.0" y="6" width="320" height="20.5"/>
+                        <subviews>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gv2-GI-Lwy">
+                                <rect key="frame" x="0.0" y="0.0" width="20.5" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20.5" id="R6R-5D-2Ae"/>
+                                    <constraint firstAttribute="height" constant="20.5" id="gqi-eo-a4u"/>
+                                </constraints>
+                                <state key="normal" image="ic_unsl">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <state key="selected" image="ic_sl"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l29-gE-bUS">
+                                <rect key="frame" x="28.5" y="0.0" width="291.5" height="20.5"/>
+                                <fontDescription key="fontDescription" name="Muli-Bold" family="Muli" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="l29-gE-bUS" firstAttribute="leading" secondItem="gv2-GI-Lwy" secondAttribute="trailing" constant="8" id="3P1-53-J6n"/>
+                            <constraint firstItem="l29-gE-bUS" firstAttribute="top" secondItem="cUd-q3-k2k" secondAttribute="top" id="CLP-O8-L8B"/>
+                            <constraint firstAttribute="trailing" secondItem="l29-gE-bUS" secondAttribute="trailing" id="Slt-RY-LmJ"/>
+                            <constraint firstItem="l29-gE-bUS" firstAttribute="leading" secondItem="gv2-GI-Lwy" secondAttribute="trailing" constant="8" id="aYq-qJ-w3E"/>
+                            <constraint firstItem="gv2-GI-Lwy" firstAttribute="leading" secondItem="cUd-q3-k2k" secondAttribute="leading" id="kSg-m0-nfF"/>
+                            <constraint firstAttribute="bottom" secondItem="l29-gE-bUS" secondAttribute="bottom" id="kYa-df-xoV"/>
+                            <constraint firstItem="gv2-GI-Lwy" firstAttribute="top" secondItem="cUd-q3-k2k" secondAttribute="top" id="sKy-wo-OC3"/>
+                            <constraint firstAttribute="bottom" secondItem="gv2-GI-Lwy" secondAttribute="bottom" id="v30-aZ-FFB"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cUd-q3-k2k" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="KcP-uF-Uwa"/>
+                    <constraint firstAttribute="bottom" secondItem="cUd-q3-k2k" secondAttribute="bottom" constant="6" id="bb9-bF-YQ0"/>
+                    <constraint firstItem="cUd-q3-k2k" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="c32-EL-aPC"/>
+                    <constraint firstAttribute="trailing" secondItem="cUd-q3-k2k" secondAttribute="trailing" id="pco-eI-VcT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnImage" destination="gv2-GI-Lwy" id="if7-XW-bOs"/>
+                <outlet property="lbContent" destination="l29-gE-bUS" id="Wwg-oR-MNZ"/>
+            </connections>
+            <point key="canvasLocation" x="-71.014492753623188" y="55.915178571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_sl" width="16.5" height="16"/>
+        <image name="ic_unsl" width="16.5" height="16"/>
+    </resources>
+</document>
